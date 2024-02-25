@@ -1,0 +1,417 @@
+/* Apply a reset to remove default margin and padding */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  body{
+    overflow-x: hidden;
+  }
+  
+  /* Style for the navigation bar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:darkblue;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    
+  }
+  
+  /* Style for the logo in the navigation bar */
+  .logo img {
+    width: 50px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Style for the navigation links in the bar */
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding-left: 10px;
+    
+  }
+  
+  .logo{
+    height: 50px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 100px;
+    padding-right: 300px;
+  }
+.ninjas{
+    line-height:48px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+.riya{
+    color: yellow;
+}
+  
+  .nav_element {
+    color: yellow;
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  
+  /* Style for the main content sections */
+  .section {
+    height: 560px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Enable wrapping for smaller screens */
+  }
+  
+  /* Style for the home section */
+  #home {
+    background-color:white;
+  }
+  .home_sec{
+    font-weight: 600px;
+    font-size: 18px;
+  }
+  /* Style for the text content in the home section */
+  #home .text-content {
+    width: 100%; /* Take full width on smaller screens */
+    max-width: 600px; /* Limit width on larger screens */
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the image in the home section */
+  #home img {
+    width: 100%; /* Take full width */
+    max-width: 400px; /* Limit width on larger screens */
+    border-radius: 8px;
+  }
+  
+  /* Style for the H1 and H4 in the home section */
+  #home h1 {
+    font-size: 36px;
+  }
+  
+  #home h4 {
+    font-size: 18px;
+  }
+  
+  /* Style for the button in the home section */
+  #home .call-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add additional styles for other sections (blog, services, about, contact) as needed */
+  .text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 170px;
+  }
+  .call-button{
+   width: 165px;
+   margin-left: 50px;
+  }
+  .home_para{
+    margin-left: 20px;
+  }
+  /* about us */
+  .about_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 100%;
+  }
+  .about_inner{
+    width: 55%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .about_headig{
+    font-size: 26px;
+    font-weight:600;
+    text-transform: capitalize;
+    color: darkblue;
+    text-decoration: underline;
+  }
+  .first_para{
+    font-size: 24px;
+    font-weight: 400px;
+  }
+  .second_para{
+    font-size: 19px;
+    font-weight: 200px;
+  }
+  /* service */
+  .service_container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    gap: 10px;
+    height: 450px;
+  }
+  .service_heading{
+    font-size: 23px;
+    font-weight: 500;
+  }
+  .service_img{
+    height: 350px;
+    width: 350px;
+    margin-top: 25px;
+  }
+  .first_container{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+  }
+  .service_inner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .p_heading{
+    font-weight: 550;
+    font-size: 23px;
+    color:white;
+    height: auto;
+    width: 700px;
+    background-color:darkblue;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .service_para{
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  .service_heading{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: darkblue;
+    text-decoration: underline;
+  }
+  .service_img2{
+    height: 300px;
+    width: 300px;
+    margin-top: 80px;
+  }
+  .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+  }
+  .blog-grid{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .blog_heading{
+    font-size: 25px;
+    color: darkblue;
+    text-decoration: underline;
+  }
+  .blog_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  .blog_words{
+    font-size: 20px;
+  }
+  form {
+    width: 300px;
+    margin: 20px 0;
+    /* background-color: red; */
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color:darkblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.contact_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_heading{
+  margin-left: 430px;
+  color: darkblue;
+  text-decoration: underline;
+}
+/* footer */
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  height: 150px;
+  width: 100vw;
+  background-color: darkblue;
+}
+.footer_element{
+  text-decoration: none;
+  color: white;
+  height:auto ;
+  width:auto;
+  /* background-color: red; */
+  padding: 3px;
+  transition: ease-in-out;
+  
+}
+.footer_menu{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.footer_contact{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.add{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+}
+.add_contact{
+  height: auto;
+  width: 70px;
+  padding: 3px;
+  color: darkblue;
+  background-color: white;
+}
+.add_us{
+  height: auto;
+  width: 90px;
+  padding: 3px;
+  color: darkblue;
+  background-color: white;
+}
+/* hover */
+.footer_element:hover{
+  text-decoration: none;
+  color: white;
+  height:auto ;
+  width:auto;
+  /* background-color: red; */
+  padding: 3px;
+  background-color:white;
+  color: darkblue;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.blog_img:hover{
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+.nav_element:hover{
+  color:darkblue;
+  background-color: white;
+  text-decoration: none;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+
+
+
+/* try */
+.slider-container {
+  top: 0;
+  right: 0;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  background-color:white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Style for the slider images */
+.slider img {
+  width: 100%;
+  height: auto;
+  display: none;
+  overflow-x: hidden;
+}
+
+/* Style for the navigation buttons */
+/* .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none; */
+/* } */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Add some styling for better presentation */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.slide_fun{
+  height: 400px;
+  width: 700px;
+  /* background-color: red; */
+}
