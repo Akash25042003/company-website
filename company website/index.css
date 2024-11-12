@@ -1,0 +1,233 @@
+*{
+    overflow-x: hidden;
+    
+  }
+
+  .custom_link{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(255, 255, 0, 0.825) !important;
+  }
+
+  .custom_slide{
+    border-radius: 10px;
+  }
+  
+  .togg{
+    margin-right: 10px;
+    border: none;
+  }
+  .contact-phone{
+    font-size: 16px;
+  }
+
+  .section1{
+    height: 600px;
+    width: fit-content !important;
+    border-bottom: 1px solid white;
+    
+  }
+
+  .akash{
+    font-size: 40px;  
+  }             
+  .web{
+    font-size: 25px;              
+  }
+  .webdes{
+    font-size: 20px;               
+  }
+  .skill-item{
+    border-radius: 10px !important;
+  }
+  .section2{
+    height: 600px;
+  }
+
+  /* contact */
+
+
+  .custom-form{
+    border-radius: 10px !important;
+    background-color: #333333;
+  }
+
+  
+
+  
+  /* project */
+  .project-image{
+    transition: transform 1s ease-in-out;
+  }
+  
+  .project-card:hover{
+    cursor: pointer;
+  }
+  .project-image:hover{
+    transform: scale(1.2);
+  }
+  
+  
+  .project-card{
+    border-radius: 10px !important;
+    transform: translateY(0px);      /* Initially scaled down */  
+    transition: transform 0.3s ease;
+  }
+  
+  .text-box{
+    height: 170px;
+  }
+  .btn-animated{
+    overflow-y: hidden !important;
+  }
+  .end{
+    font-size: 20px;
+    color: black !important;
+    font-weight: 600;
+  }
+  /* hover */
+  
+  /* contact-hover */
+  .custom-dowload{
+    background-color: white !important;
+    border-radius: 20px !important;
+  }
+  .submit{
+    background-color: rgb(0, 123, 255) !important;
+    color: white !important;
+    border-radius: 10px !important;
+  }
+  
+  .contact-social{
+    transform: translateY(0px); 
+    transition: transform 0.3s ease;
+  }
+  .contact-social:hover{
+    transform: translateY(-10px);
+  }
+  .contact-social i{
+    color: #00d1b2;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .contact-social i:hover{
+    background-color:rgb(236, 72, 100);
+    color: white;
+  }
+  /* skill-hover */
+  
+  
+  .skill-card{
+    border-radius: 15px !important;
+  }
+  .skill-card:hover{
+    background-color:rgb(236, 72, 100);
+    color: white;
+  }
+  
+  /* project-hover */
+  .project-card:hover{
+    transform: translateY(-20px);
+  
+  }
+  
+  
+  
+  .tamil{
+    transform: translateY(0px); 
+    transition: transform 0.3s ease;
+  
+  }
+  .tamil:hover{
+    transform: translateY(-10px);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 580px) {
+    .akash {
+      font-size: 35px; 
+    }
+    .web{
+      font-size: 20px;
+    }
+    .webdes{
+      font-size: 16px;
+    }
+    .mypic{
+      height: 200px !important;
+      margin-top: 100px;
+    }
+    .se2-img{
+      display: none;
+    }
+    .custom-form{
+      width: 350px !important;
+    }
+    .end{
+      font-size: 15px !important;
+    }
+  }
+  
+  @media (max-width: 768px ) {
+    .se2-img{
+      display: none;
+    }
+    .akash {
+      font-size: 35px; 
+    }
+    .web{
+      font-size: 20px;
+    }
+    .webdes{
+      font-size: 16px;
+    }
+    .mypic{
+      height: 200px !important;
+      margin-top: 100px;
+    }
+    .se2-img{
+      display: none;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+    @media (max-width: 400px) {
+      .akash {
+        font-size: 35px; 
+      }
+      .web{
+        font-size: 20px;
+      }
+      .webdes{
+        font-size: 16px;
+      }
+    }
+  
+  @media (min-width: 992px) {
+    .responsive-text {
+      font-size: 24px; 
+    }
+    
+  }
+  
+  @media (min-width: 1200px) {
+    .responsive-text {
+      font-size: 28px; 
+    }
+  }
+  
+  
+  
+  
+  
